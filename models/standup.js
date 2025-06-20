@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const standupSchema = new mongoose.Schema({
   guildId: String,
   channelId: String,
-  members: [String], // Discord user IDs
+  members: [String],
   responses: {
     type: Map,
     of: String,

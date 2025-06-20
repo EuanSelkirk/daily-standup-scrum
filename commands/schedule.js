@@ -35,7 +35,7 @@ module.exports = {
     const cronTime = `${minute} ${hour} * * *`;
 
     try {
-      updateScheduler(cronTime, interaction.client); // Update the schedule
+      updateScheduler(cronTime, interaction.client);
       await interaction.reply({
         content: `✅ Daily standup rescheduled to ${hour
           .toString()

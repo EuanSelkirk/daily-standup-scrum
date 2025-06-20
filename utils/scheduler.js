@@ -8,10 +8,9 @@ function startDailyStandup(client, cronTime = "0 9 * * *") {
   currentJob = cron.schedule(
     cronTime,
     () => {
-      // Broadcast the standup prompt to members here
       console.log("📢 Sending daily standup prompt...");
     },
-    { timezone: "America/New_York" } // or adjust based on your needs
+    { timezone: "America/New_York" }
   );
 
   console.log(`📅 Standup scheduled for ${cronTime}`);

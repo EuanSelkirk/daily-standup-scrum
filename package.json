@@ -1,0 +1,21 @@
+{
+  "name": "daily-standup-scrum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@discordjs/rest": "^2.5.1",
+    "discord-api-types": "^0.38.12",
+    "discord.js": "^14.20.0",
+    "dotenv": "^16.5.0",
+    "mongoose": "^8.16.0",
+    "node-cron": "^4.1.0",
+    "node-schedule": "^2.1.1"
+  }
+}
